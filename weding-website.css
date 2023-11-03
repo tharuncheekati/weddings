@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: auto;
+    font-family: 'cookie';
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color :#653240 ;
+    overflow:hidden;
+}
+.banner{
+    width: 120%;
+    height: 650px;
+    background-image:url(wed-img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius:0 0 500px 0;
+}
+.nav{
+    width: 90%;
+    height: auto;
+    background-color: rgba(200, 132, 132, 0.7);
+    border-radius: 30px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav b{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.menu{
+    width: 50%;
+    height: 60px;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    transition-duration: .5s;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #333;
+    font-weight: bolder;
+    transition-duration: .5s;
+}
+.menu a:hover{
+    border-bottom: 5px solid #f15;
+}
+.text{
+    width: 100%;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 50px;
+    text-align: left;
+
+}
+.text h1{
+    color: rgb(200, 182, 246);
+    text-shadow: 0 3px 10px rgba(0,0,0,.5);
+}
+.text .date{
+    color: #a78d8d;
+    background-color: #f15;
+    padding: 5px;
+    border-radius: 40px 0 40px 0;
+    transition-duration: .5s;
+
+}
+.text .date:hover{
+    background-color: #fff;
+    color: #f15;
+}
